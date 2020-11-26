@@ -30,7 +30,7 @@ export default {
           to: '/',
         },
       ],
-      title: 'Improvement Web',
+      title: 'NUXT AAD',
     }
   },
 }
