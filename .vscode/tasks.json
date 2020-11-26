@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"problemMatcher": [],
+			"label": "dev",
+			"detail": "nuxt-ts"
+		},
+		{
+			"type": "npm",
+			"script": "build",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "build",
+			"detail": "nuxt-ts build"
+		},
+		{
+			"type": "npm",
+			"script": "generate",
+			"problemMatcher": [],
+			"label": "generate",
+			"detail": "nuxt-ts generate"
+		},
+		{
+			"type": "npm",
+			"script": "lint:js",
+			"problemMatcher": [],
+			"label": "lint:js",
+			"detail": "eslint --ext .js,.vue --ignore-path .gitignore ."
+		},
+		{
+			"type": "npm",
+			"script": "install",
+			"problemMatcher": [],
+			"label": "yarn: install",
+			"detail": "install dependencies from package"
+		}
+	]
+}
